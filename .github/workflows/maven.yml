@@ -16,4 +16,4 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Executing Selenium Test
-      run: mvn clean test
+      run: mvn clean install
